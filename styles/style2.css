@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    color: #f6f6f6;
+    /* height: 100vh; */
+    box-sizing: border-box;
+}
+.principal {
+    border: 10px solid rgb(0,139,139);
+    border-radius: 100px;
+    display: flex;
+    background-color:rgb(0, 75, 75) ;
+    margin: 2%;
+    box-shadow: 0px 0px 50px 3px rgb(0,139,139);
+    align-items: center;
+    justify-content: baseline;
+    
+}
+.texto-destaque {
+    color: #ff0000
+}
+.titulo-blog {
+    color: #00ff73
+}
+
+p {
+    font-size:x-large
+}
+
+.container {
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px
+  
+}
+.logo__lira{
+    margin: 1%;
+    padding: 10px
+}
+
+.cabecalho__menu {
+    display: flex;
+    padding: 30px;
+    align-content: center;
+    /* margin-left: 100px; */
+    gap: 60px;
+    font-size: 1.25rem;
+    font-family: "Krona One", sans-serif;
+    color: #f8f8f8;
+}
+
+.cabecalho__menu__link {
+    text-decoration: none;
+    color: #f8f8f8
+}
+
+.cabecalho__menu__link:hover {
+    color:#22D4FD
+}
+.titulo {
+    font-size: 2.25rem;
+    font-family: "Krona One", serif;
+}
+
+.texto{
+    font-size: 1.5rem;
+    font-family: "Montserrat", serif
+}
+
+.container2 {
+    font-family: "Krona One", serif;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    margin-block: 24px;
+    /* margin: 8% 5% 20% 5%;
+    display: flex;
+    align-items: center;
+    height: 10px;
+    justify-content: space-between;
+    font-size: 1.87rem;
+    border-radius: 20px;
+    padding: 30px;
+    gap: 80px;
+    width: 50% */
+}
+
+.container-item {
+    border: 2px solid rgb(0,139,139);
+    padding: 30px;
+    border-radius: 0 0 50px 0;
+    width: 50%;
+}
+
+.container-front-end:hover {
+    box-shadow: 0px 0px 14px 3px rgb(0,139,139);
+    margin-bottom: 1%;
+}
+
+.container-front-end-name {
+    padding-bottom: 20px;
+}
+
+.container-back-end {
+    border: 2px solid rgb(0,139,139);
+    padding: 30px;
+    border-radius: 0 0 50px 0;
+    width: 50%
+}
+
+.container-back-end:hover {
+    box-shadow: 0px 0px 14px 3px rgb(0,139,139);
+    margin-bottom: 1%
+
+}
+
+.container-back-end-name {
+    padding-bottom: 20px
+}
+
+.container-devops {
+    border: 2px solid rgb(0,139,139);
+    padding: 30px;
+    border-radius: 0 0 50px 0;
+    width: 50%
+}
+
+.container-devops:hover {
+    box-shadow: 0px 0px 14px 3px rgb(0,139,139);
+    margin-bottom: 1%
+
+}
+
+.container-devops-name {
+    padding-bottom: 20px
+}
+
+.container-datascience {
+    border: 2px solid rgb(0,139,139);
+    padding: 30px;
+    border-radius: 0 0 50px 0;
+    width: 50%
+}
+
+.container-datascience:hover {
+    box-shadow: 0px 0px 14px 3px rgb(0,139,139);
+    margin-bottom: 1%;
+
+}
+
+.container-datascience-name {
+    padding-bottom: 20px
+}
+
+.container-artificial {
+    border: 2px solid rgb(0,139,139);
+    padding: 30px;
+    border-radius: 0 0 50px 0;
+    width: 50%
+}
+
+.container-artificial:hover {
+    box-shadow: 0px 0px 14px 3px rgb(0,139,139);
+    margin-bottom: 1%;
+
+}
+
+.container-artificial-name {
+    padding-bottom: 20px
+}
+.categorias-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.12rem;
+    color:rgb(126, 126, 126);
+}
+
+.apresentacao {
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo {
+    width: 50%;
+}
+
+.apresentacao__links {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+
+}
+
+.apresentacao__links__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    border: 2px solid rgb(0,139,139);
+    width: 50%;
+    text-align: center;
+    padding: 25px 0.8px;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: "Krona One", serif;
+    background-color: rgb(0,139,139);
+    
+}
+
+.apresentacao__links__link:hover {
+    box-shadow: 0px 0px 14px 3px rgb(0,139,139);
+    padding: 3%;
+}
+
+.imagem {
+    border-radius: 100px;
+    width: 50%;
+}
+
+.icones {
+    color: #000000;
+    filter: grayscale(1) brightness(0);
+}
+
+.rodape {
+    background-color: #22D4FD;
+    color: #000000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400px;
+    padding: 24px
+}
+
+.sobrenos {
+    padding: 4% 10% 4% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto2 {
+    font-size: 1.5rem;
+    font-family: "Montserrat", serif;
+    margin-bottom: 5%;
+}
+
+.titulo2 {
+    font-size: 2.25rem;
+    font-family: "Krona One", serif;
+    padding-bottom: 2%;
+}
+
+.logo__lira2 {
+    width: 450px;
+    height: 350px;
+}
+
+@media (max-width:1023px) {
+    .container {
+        flex-direction: column-reverse;
+        padding: 5%
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+    .container2 {
+        max-width: 100%;
+}
+    .principal {
+        padding: 2%;
+        justify-content: center;
+    }
+    
+    .imagem {
+        width: 70%;
+    }
+}
